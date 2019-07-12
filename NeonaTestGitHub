@@ -1,0 +1,7 @@
+Creating a new file and pushing to remote repository
+Create a new file in the Git directory by typing the following command from either the Bash or Windows command line. The following command will open and create a file called example.txt in Notepad. In Git Bash, you could also use the touch command to create a blank new file and then type "start <name of file>" to open the file in your favorite text editor.
+start notepad example.txt
+In the text editor, enter some text into the file and save and exit the file.
+Back at the command line type the following command to get the current status of your branch and untracked files.
+git status
+Git will display a window similar to the example shown below, showing that the file we created is new and untracked by Git.
